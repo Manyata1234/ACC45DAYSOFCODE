@@ -1,0 +1,30 @@
+#include <iostream>
+using namespace std;
+
+// Class template
+template <class T>
+class Number {
+   private:
+    // Variable of type T
+    T num;
+
+   public:
+    Number(T n) : num(n) {}   // constructor
+
+    T getNum() {
+        return num;
+    }
+};
+
+int main() {
+
+    
+    Number<int> numberInt(7);
+
+   Number<double> numberDouble(7.7);
+
+    cout << "int Number = " << numberInt.getNum() << endl;
+    cout << "double Number = " << numberDouble.getNum() << endl;
+
+    return 0;
+}
