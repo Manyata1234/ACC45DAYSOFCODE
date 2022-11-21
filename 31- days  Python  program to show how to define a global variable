@@ -1,0 +1,7 @@
+def func():  
+    print( "Inside the defined function the string is: ", var ) # this is local scope  
+# This is global scope  
+var = "Declaring Global Variable"  
+# calling the function  
+func()   
+print("Outside the defined function the string is: ", var)  
