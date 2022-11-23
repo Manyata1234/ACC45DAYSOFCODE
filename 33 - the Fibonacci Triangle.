@@ -1,0 +1,10 @@
+#include#include
+using namespace std;
+int main() {
+ int a=0,b=1,i,c,n,j;    
+  n = 7;
+    for(i=1; i<=n; i++)    
+    {    
+        a=0;    
+        b=1;    
+        cout<
